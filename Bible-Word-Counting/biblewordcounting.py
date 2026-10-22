@@ -46,7 +46,7 @@ for i in range(len(chapters)):#runs the amount of times as there is chapters
 l=list(d.keys()) #creates a list of all the keys 
 f=list(d.values()) #creates a list of all the values
 import csv #importing library for writing/reading to csv files this is where i store the collected data
-j = open("mycsv.csv","w" , newline="") #opening
+j = open("wordcount.csv","w" , newline="") #opening
 y=csv.writer(j) #sets y as writing to the file
 y.writerow(["Word","Occurencies"]) #writes the headers
 for i in range(len(l)):#writes the keys on the left column and the values on the right creating the csv
