@@ -1,5 +1,5 @@
 import csv
-src = open("Files/kjvbible.txt")
+src = open("kjvbible.txt")
 letters = list(src.read())
 word=""
 uqword = []
